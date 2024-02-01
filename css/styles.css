@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(213, 53, 53);
+  height: 100vh;
+  width: 100vw;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#pantallaTv {
+  background-color: aqua;
+  width: 85vw;
+  height: 85vh;
+  margin: 1em;
+}
+#zonaMando {
+  background-color: green;
+  width: 15vw;
+  height: 50vh;
+  margin: 2em;
+}
