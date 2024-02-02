@@ -20,21 +20,27 @@ body {
   align-items: center;
 }
 #contenedor {
+  height: 85vh;
+  width: 100vw;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  height: 85vh;
-  width: 100vw;
 }
 
-#pantallaTv {
-  background-color: aqua;
+#screenTv {
+  /* background-color: aqua; */
   width: 100vw;
   height: 85vh;
   margin: 1em;
+  border: 0.5em solid black;
+  border-radius: 4%;
 }
-#zonaMando {
+.basicscreenTv {
+  background-color: rgb(39, 37, 37);
+}
+#remote {
   background-color: green;
   width: 20vw;
   height: 60vh;
@@ -47,7 +53,7 @@ body {
   align-items: center;
   justify-content: center;
 }
-#upMando {
+#upRemote {
   background-color: blue;
   height: 30vh;
   width: 17vw;
@@ -58,16 +64,16 @@ body {
   align-items: center;
   justify-content: center;
 }
-#downMando {
+#downRemote {
   background-color: brown;
   height: 30vh;
   width: 17vw;
   border-radius: 5%;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 0.1fr);
+  grid-template-rows: repeat(3, 0.6fr);
   justify-content: space-around;
+  align-items: center;
 }
 #onOff {
   background-color: chocolate;
@@ -126,12 +132,7 @@ body {
 .chButton {
   margin-bottom: 1em;
 }
-#downMando {
-  display: grid;
-  grid-template-columns: repeat(3, 0.1fr);
-  grid-template-rows: repeat(3, 0.6fr);
-  justify-content: space-around;
-}
+
 .numberButtons {
   background-color: rgb(240, 97, 54);
   height: 3em;
@@ -142,4 +143,31 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+}
+.channel1 {
+  background-color: red;
+}
+.channel2 {
+  background-color: yellow;
+}
+.channel3 {
+  background-color: orange;
+}
+.channel4 {
+  background-color: green;
+}
+.channel5 {
+  background-color: blue;
+}
+.channel6 {
+  background-color: violet;
+}
+.channel7 {
+  background-color: white;
+}
+.channel8 {
+  background-color: purple;
+}
+.channel9 {
+  background-color: brown;
 }
