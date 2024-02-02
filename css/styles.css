@@ -13,7 +13,7 @@ body {
 #titulo {
   height: 10vh;
   color: rgb(212, 37, 37);
-  font-size: 2em;
+  font-size: 10vh;
 
   display: flex;
   justify-content: start;
@@ -58,6 +58,10 @@ body {
   background-color: brown;
   height: 30vh;
   width: 17vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 #onOff {
   background-color: chocolate;
@@ -72,4 +76,48 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+#volchan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+#vol {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 14vh;
+  width: 3vw;
+  border: 0.2em solid black;
+}
+#ch {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 14vh;
+  width: 3vw;
+}
+.chButton {
+  margin-bottom: 1em;
+}
+#downMando {
+  display: grid;
+  grid-template-columns: repeat(3, 0.1fr);
+  grid-template-rows: repeat(3, 0.6fr);
+  justify-content: space-around;
+}
+.numberButtons {
+  background-color: rgb(240, 97, 54);
+  height: 3em;
+  width: 3em;
+  border: 0.1em solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
