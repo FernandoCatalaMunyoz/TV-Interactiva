@@ -28,6 +28,26 @@ body {
   justify-content: center;
   align-items: center;
 }
+#infoChannel {
+  background-color: aqua;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1em;
+  padding: 1em;
+}
+#dateHour {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-between;
+
+  width: 8em;
+}
 
 #screenTv {
   /* background-color: aqua; */
@@ -36,10 +56,43 @@ body {
   margin: 1em;
   border: 0.5em solid black;
   border-radius: 4%;
+
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  padding: 0.5em;
+  margin: 0.5em;
+
+  object-fit: cover;
 }
+.startChannel {
+  background-image: url(../img/rakutentvthechannelstore.jpg);
+  object-fit: cover;
+}
+#channelName {
+  height: 5em;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#hourDate {
+  height: 5em;
+  width: 10em;
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 .basicscreenTv {
-  background-color: rgb(39, 37, 37);
+  background-color: transparent;
 }
+
 #remote {
   background-color: green;
   width: 20vw;
@@ -170,4 +223,10 @@ body {
 }
 .channel9 {
   background-color: brown;
+}
+.screenOff {
+  background-color: transparent;
+}
+.welcome {
+  background-color: aquamarine;
 }
