@@ -19,12 +19,8 @@ Bienvenido a RAKUTEN TV. Aqui podras disfrutar de los mejores canales de entrete
 
 ## Caracteristicas
 
-- **Video presentacion**
-- **Menu:** Presentación de los distintos platos disponibles.
-- **Sobre nosotros:** Conoce un poco mas sobre nosotros.
-- **Reserva:** Posibilidad de realizar una reserva a traves de un formulario.
-
-Utilizacion de Bootstrap para conseguir que sea responsive en cualquier dispositivo.
+- **Pantalla de visualicación:** Donde se mostraran los distintos canales.
+- **Mando interactivo:** Simulacion del mando de la television con el cual se podrá encender la televisión, mostrando una pantalla de inicio y despues cambiar entre los distintos canales mostrando informacion de Fecha, Hora y numero de canal.
 
 ## Implementación
 
@@ -42,7 +38,7 @@ git clone https://github.com/FernandoCatalaMunyoz/Carta_Restaurante.git
 
 ## Capturas de pantalla
 
-![CapturaInicio](./img/captura%20inicio.png){width=200} ![CarturaMenu](./img/caputra%20menu.png){width=200} ![CapturaAbout](./img/captura%20sobre%20nosotros.png){width=200} ![CapturaContacto](./img/camptura%20contacto.png){width=200}
+![Tv apagada](./img/TV%20Apagada.png){width=200} ![Pantalla Inicio](./img/Pantalla%20Inicio.png){width=200} ![Canal 1](./img/Canal%201.png){width=200} ![Canal 2](./img/Canal%202.png){width=200}![Canal 3](./img/Canal%203.png){width=200} ![Canal 4](./img/Canal%204.png){width=200} ![Canal 5](./img/Canal%205.png){width=200} ![Canal 6](./img/Canal%206.png){width=200} ![Canal 7](./img/Canal%207.png){width=200} ![Canal 8](./img/Canal%208.png){width=200} ![Canal 9](./img/Canal%209.png){width=200}
 
 ## Bugs
 
