@@ -1,4 +1,4 @@
-# Carta Restaurante 🖋️
+<h1 align="center"> RAKUTEN TV </H1>
 
 Bienvenido a RAKUTEN TV. Aqui podras disfrutar de los mejores canales de entretenimiento.
 
@@ -42,7 +42,9 @@ git clone https://github.com/FernandoCatalaMunyoz/Carta_Restaurante.git
 
 ## Bugs
 
-- no he sabido centrar del todo bien las opciones del navegador cuando se convierte en version movil
+- No es responsive
+- En esta primera version, no estan las funcionalidades de los botones del mando de control de volumen y de canales.
+- En siguientes versiones se incluiran tambien tanto un botón de lista de canales desplegando dicho listado, como un botos de ajustes para opciones de visionado
 
 ## Autor
 
