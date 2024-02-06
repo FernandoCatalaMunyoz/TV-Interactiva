@@ -10,9 +10,10 @@ body {
   margin: 0;
   padding: 0;
 }
-#titulo {
+#title {
+  font-family: Arial, Helvetica, sans-serif;
   height: 10vh;
-  color: rgb(212, 37, 37);
+  color: rgb(143, 131, 49);
   font-size: 10vh;
 
   display: flex;
@@ -28,55 +29,64 @@ body {
   justify-content: center;
   align-items: center;
 }
-#infoChannel {
-  background-color: aqua;
-
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 1em;
-  padding: 1em;
-}
-#dateHour {
-  background-color: red;
-  display: flex;
-  flex-direction: row;
-
-  align-items: center;
-  justify-content: space-between;
-
-  width: 8em;
-}
-
 #screenTv {
-  /* background-color: aqua; */
   width: 100vw;
   height: 85vh;
   margin: 1em;
   border: 0.5em solid black;
-  border-radius: 4%;
 
   display: flex;
   flex-direction: row;
-
+  align-items: start;
   justify-content: space-between;
   padding: 0.5em;
   margin: 0.5em;
 
   object-fit: cover;
 }
-.startChannel {
-  background-image: url(../img/rakutentvthechannelstore.jpg);
-  object-fit: cover;
+#dateHour {
+  /* background-color: red; */
+  font-size: 2em;
+  color: greenyellow;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-shadow: black 4px 0 10px;
+  padding-top: 2em;
+  padding-inline: 1em;
+}
+#date {
+  background-color: green;
+}
+#hour {
+  background-color: blue;
 }
 #channelName {
-  height: 5em;
-  background-color: blue;
+  padding-top: 2em;
+  font-size: 2em;
+  color: greenyellow;
+  padding-inline: 1em;
+  font-weight: bold;
+  text-shadow: black 4px 0 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.startChannel {
+  background-image: url(../img/rakutentvthechannelstore.jpg);
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#infoChannel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 #hourDate {
@@ -94,7 +104,7 @@ body {
 }
 
 #remote {
-  background-color: green;
+  background: linear-gradient(black, grey, black);
   width: 20vw;
   height: 60vh;
   margin: 2em;
@@ -107,7 +117,6 @@ body {
   justify-content: center;
 }
 #upRemote {
-  background-color: blue;
   height: 30vh;
   width: 17vw;
   border-radius: 5%;
@@ -118,7 +127,6 @@ body {
   justify-content: center;
 }
 #downRemote {
-  background-color: brown;
   height: 30vh;
   width: 17vw;
   border-radius: 5%;
@@ -129,7 +137,6 @@ body {
   align-items: center;
 }
 #onOff {
-  background-color: chocolate;
   height: 5vh;
   width: 16vw;
   display: flex;
@@ -138,7 +145,7 @@ body {
   justify-content: space-around;
 }
 #buttonOnOff {
-  background-color: blue;
+  background-color: grey;
   width: 4em;
   border: 0.1em solid black;
   display: flex;
@@ -149,7 +156,6 @@ body {
 #volchan {
   height: 22vh;
   width: 16vw;
-  background-color: azure;
 
   display: flex;
   flex-direction: column;
@@ -163,7 +169,7 @@ body {
   justify-content: space-around;
 }
 #vol {
-  background-color: blue;
+  background-color: rgb(123, 122, 121);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,7 +179,7 @@ body {
   border: 0.1em solid black;
 }
 #ch {
-  background-color: yellow;
+  background-color: rgb(123, 122, 121);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -187,7 +193,7 @@ body {
 }
 
 .numberButtons {
-  background-color: rgb(240, 97, 54);
+  background-color: rgb(123, 122, 121);
   height: 3em;
   width: 3em;
   border: 0.1em solid black;
@@ -198,31 +204,58 @@ body {
   cursor: pointer;
 }
 .channel1 {
-  background-color: red;
+  background-image: url(../img/Padra\ de\ familia.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .channel2 {
-  background-color: yellow;
+  background-image: url(../img/indiana\ jones.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .channel3 {
-  background-color: orange;
+  background-image: url(../img/elemental.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .channel4 {
-  background-color: green;
+  background-image: url(../img/thor.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .channel5 {
-  background-color: blue;
+  background-image: url(../img/castle.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .channel6 {
-  background-color: violet;
+  background-image: url(../img/galaxy.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 .channel7 {
-  background-color: white;
+  background-image: url(../img/6Zpz.gif);
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .channel8 {
-  background-color: purple;
+  background-image: url(../img/JjOn.gif);
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .channel9 {
-  background-color: brown;
+  background-image: url(../img/UqVL.gif);
+
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .screenOff {
   background-color: transparent;
